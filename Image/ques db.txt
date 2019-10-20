@@ -1,0 +1,10 @@
++---------------------+--------------+------+-----+---------+----------------+
+| Field               | Type         | Null | Key | Default | Extra          |
++---------------------+--------------+------+-----+---------+----------------+
+| questionId          | int(11)      | NO   | PRI | NULL    | auto_increment |
+| questionDescription | varchar(500) | NO   |     | NULL    |                |
+| date                | date         | NO   |     | NULL    |                |
+| questionImage       | mediumblob   | YES  |     | NULL    |                |
+| photoName           | varchar(50)  | YES  |     | NULL    |                |
+| photoContentType    | varchar(50)  | YES  |     | NULL    |                |
++---------------------+--------------+------+-----+---------+----------------+
